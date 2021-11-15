@@ -131,6 +131,7 @@ section{
 }
 
 .footer .heading{
+    text-align:center;
     color: white;
     font-weight: bold;
     font-size: larger;
