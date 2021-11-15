@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root{
+    --primary-color:#6C63FF;
+    --off-white-grey:#4B5563;
+    --off-white:#F3F4F6;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;  
+}
+
+hr{
+    margin: 2rem 0rem;
+}
+
+/* containeer */
+
+
+.container-fluid{
+    margin:auto;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+.container-centre{
+    margin:auto;
+    max-width:600px;
+    padding-left:1rem;
+    padding-right:1rem;
+}
+
+
+/* links */
+
+.link{
+    color:white;
+    text-decoration:none;
+    padding:0.5rem 0.5rem;
+}
+
+.link-primary{
+    color: white;
+    padding:0.5rem 1rem;
+    border: 1px;
+    border-radius:0.5rem;
+    background-color:var(--primary-color);
+    text-decoration:none;
+}
+.link-secondary{
+    color: var(--primary-color);
+    padding:0.5rem 0.5rem;
+    border: 1px solid var(--primary-color);
+    border-radius:0.5rem;
+    text-decoration:none;  
+}
+
+/* lists */
+
+.list-item-nonbullet{
+   list-style-type: none;
+}
+
+.list-item-nonbullet.inline{
+    padding:0.5rem 0.5rem;
+    display:inline;
+}
+
+
+
+/* nav */
+.navigation{
+    background-color: var(--primary-color);
+    padding:1rem 1rem 0.5rem;
+    border-bottom-left-radius: 0.8rem;
+}
+.navigation ul{
+    text-align: right;
+}
+.navigation ul li{
+    padding:0rem 0.8rem;
+}
+.BrandName{
+    color:white;
+    font-weight: bolder;
+}
+
+
+.link-active{
+    font-weight: bold;
+}
+
+
+/* header */
+.header{
+    display: block;
+}
+.hero-image{
+    max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.hero-heading{
+    text-align: center;
+    color: var(--off-white-grey)
+}
+
+
+/* section */
+section{
+    display: block;
+}
+.section{
+    padding: 2rem 0rem;
+}
+
+.section h2{
+    text-align:center;
+}
+.section.ow {
+
+    background-color:var(--off-white);
+}
+.footer {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+
+.footer .heading{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.footer .ul{
+    padding-inline: 0rem 0rem 0rem 0rem;
+}
